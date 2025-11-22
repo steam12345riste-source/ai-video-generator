@@ -1,0 +1,17 @@
+{
+    "ai_config": {
+      "image_generator": {
+        "model": "nano-banana",
+        "response_format": "b64_json",
+        "prompt_template": "${description}"
+      },
+      "video_generator": {
+        "model": "sora-2",
+        "prompt_template": "${description}",
+        "size": "1280x720",
+        "seconds": "4",
+        "generate_audio": false
+      }
+    }
+  }
+  
